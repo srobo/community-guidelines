@@ -2,6 +2,13 @@
     font-family: "Crimson Text";
     src: url("./Crimson_Text/CrimsonText-Roman.ttf");
 }
+
+@font-face {
+    font-family: "Crimson Text";
+    src: url("./Crimson_Text/CrimsonText-Italic.ttf");
+    font-style: italic;
+}
+
 @font-face {
     font-family: Lora;
     src: url("./Lora/Lora-Regular.ttf");

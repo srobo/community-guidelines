@@ -1,0 +1,43 @@
+@font-face {
+    font-family: "Crimson Text";
+    src: url("./Crimson_Text/CrimsonText-Roman.ttf");
+}
+@font-face {
+    font-family: Lora;
+    src: url("./Lora/Lora-Regular.ttf");
+}
+
+* {
+    font-family: "Crimson Text";
+    text-align: justify;
+    font-size: 1.1em;
+}
+
+h1, h2 {
+    font-family: Lora;
+    font-variant: small-caps;
+}
+
+h1 { font-size: 3em; }
+h2 { font-size: 1.2em; }
+
+body {
+    padding-top: 2em;
+}
+
+#title {
+    width: 10em;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#content {
+    width: 35em;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+p {
+    padding-left: 1.5em;
+}

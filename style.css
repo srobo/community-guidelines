@@ -18,11 +18,15 @@ h1, h2 {
     font-variant: small-caps;
 }
 
-h1 { font-size: 3em; }
+h1 {
+    font-size: 3em;
+    color: white;
+ }
 h2 { font-size: 1.2em; }
 
 body {
-    padding-top: 2em;
+    margin: 0;
+    padding-bottom: 2em;
 }
 
 #title {
@@ -30,6 +34,13 @@ body {
     text-align: center;
     margin-left: auto;
     margin-right: auto;
+}
+
+#titlebox {
+    padding-top: 2em;
+    padding-bottom: 2em;
+    background-color: #333333;
+    box-shadow: 0px 3px 5px #aaaaaa;
 }
 
 #content {

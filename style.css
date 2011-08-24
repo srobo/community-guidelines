@@ -54,3 +54,11 @@ p {
     hyphens: auto;
     -moz-hyphens: auto;
 }
+
+a {
+    color: FireBrick;
+}
+
+a:visited {
+    color: RosyBrown;
+}

@@ -2,6 +2,13 @@
     font-family: "Crimson Text";
     src: url("./Crimson_Text/CrimsonText-Roman.ttf");
 }
+
+@font-face {
+    font-family: "Crimson Text";
+    src: url("./Crimson_Text/CrimsonText-Italic.ttf");
+    font-style: italic;
+}
+
 @font-face {
     font-family: Lora;
     src: url("./Lora/Lora-Regular.ttf");
@@ -10,7 +17,6 @@
 * {
     font-family: "Crimson Text";
     text-align: justify;
-    font-size: 1.1em;
 }
 
 h1, h2 {
@@ -19,10 +25,14 @@ h1, h2 {
 }
 
 h1 {
-    font-size: 3em;
+    font-size: 4em;
     color: white;
  }
-h2 { font-size: 1.2em; }
+h2 { font-size: 1.6em; }
+
+p, li {
+    font-size: 1.5em;
+}
 
 body {
     margin: 0;
@@ -44,13 +54,24 @@ body {
 }
 
 #content {
-    width: 35em;
+    width: 46em;
     margin-left: auto;
     margin-right: auto;
 }
 
 p {
     padding-left: 1.5em;
+}
+
+a, li, p {
     hyphens: auto;
     -moz-hyphens: auto;
+}
+
+a {
+    color: FireBrick;
+}
+
+a:visited {
+    color: RosyBrown;
 }
